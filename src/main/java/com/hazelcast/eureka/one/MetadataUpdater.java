@@ -53,6 +53,7 @@ class MetadataUpdater implements StatusChangeStrategy {
 
         if (shouldRegister()) {
             manager.setInstanceStatus(status);
+            manager.registerAppMetadata(map);
         }
     }
 
