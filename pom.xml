@@ -18,7 +18,7 @@
 
     <groupId>com.hazelcast</groupId>
     <artifactId>hazelcast-eureka-two</artifactId>
-    <version>3.0.1-SNAPSHOT</version>
+    <version>3.0.1-NTH-AG-SNAPSHOT</version>
     <name>Eureka Discovery Plugin for Hazelcast</name>
     <description>Eureka Service Discovery for Hazelcast Discovery SPI</description>
     <packaging>jar</packaging>
@@ -30,33 +30,33 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <jdk.version>17</jdk.version>
-        <hazelcast.version>5.2.1</hazelcast.version>
-        <eureka.client.version>2.0.0</eureka.client.version>
-        <eureka.commons.codec.version>1.15</eureka.commons.codec.version>
-        <eureka.gson.version>2.10.1</eureka.gson.version>
-        <compactmap.version>2.0</compactmap.version>
-        <archaius.core>0.7.7</archaius.core>
+        <hazelcast.version>5.4.0</hazelcast.version>
+        <eureka.client.version>2.0.4</eureka.client.version>
+        <eureka.commons.codec.version>1.18.0</eureka.commons.codec.version>
+        <eureka.gson.version>2.12.1</eureka.gson.version>
+        <compactmap.version>2.0.1</compactmap.version>
+        <archaius.core>0.7.12</archaius.core>
         <commons.configuration.version>1.10</commons.configuration.version>
 
         <junit.version>4.13.2</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <jetty.version>6.1.26</jetty.version>
         <javax.inject.version>1</javax.inject.version>
-        <guava.version>31.1-jre</guava.version>
-        <xstream.version>1.4.19</xstream.version>
-        <jackson.version>2.13.4</jackson.version>
-        <jackson.databind.version>2.13.4</jackson.databind.version>
-        <httpclient.version>4.5.13</httpclient.version>
-        <mockito.version>5.1.1</mockito.version>
+        <guava.version>33.4.0-jre</guava.version>
+        <xstream.version>1.4.21</xstream.version>
+        <jackson.version>2.18.2</jackson.version>
+        <jackson.databind.version>2.18.2</jackson.databind.version>
+        <httpclient.version>4.5.14</httpclient.version>
+        <mockito.version>5.15.2</mockito.version>
 
         <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
-        <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
-        <maven.checkstyle.plugin.version>3.1.2</maven.checkstyle.plugin.version>
+        <maven.surefire.plugin.version>3.5.2</maven.surefire.plugin.version>
+        <maven.checkstyle.plugin.version>3.6.0</maven.checkstyle.plugin.version>
         <maven.findbugs.plugin.version>3.0.5</maven.findbugs.plugin.version>
         <maven.sonar.plugin.version>3.3.0.603</maven.sonar.plugin.version>
-        <maven.jacoco.plugin.version>0.8.7</maven.jacoco.plugin.version>
-        <maven.gpg.plugin.version>3.0.1</maven.gpg.plugin.version>
-        <maven.javadoc.plugin.version>3.5.0</maven.javadoc.plugin.version>
+        <maven.jacoco.plugin.version>0.8.12</maven.jacoco.plugin.version>
+        <maven.gpg.plugin.version>3.2.7</maven.gpg.plugin.version>
+        <maven.javadoc.plugin.version>3.11.2</maven.javadoc.plugin.version>
     </properties>
 
     <licenses>
@@ -68,9 +68,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/hazelcast/hazelcast-eureka.git</connection>
-        <developerConnection>scm:git:git@github.com:hazelcast/hazelcast-eureka.git</developerConnection>
-        <url>https://github.com/hazelcast/hazelcast/</url>
+        <connection>scm:git:git://github.com/NTH-AG/hazelcast-eureka.git</connection>
+        <developerConnection>scm:git:git@github.com:NTH-AG/hazelcast-eureka.git</developerConnection>
+        <url>https://github.com/NTH-AG/hazelcast/</url>
     </scm>
     <developers>
         <developer>
